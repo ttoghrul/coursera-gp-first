@@ -1,0 +1,41 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+    public static void calculate(char operator, double number1, double number2) {
+        double result;
+        switch (operator) {
+
+            // performs addition between numbers
+            case '+' -> {
+                result = number1 + number2;
+                System.out.println(number1 + " + " + number2 + " = " + result);
+            }
+
+            // performs subtraction between numbers
+            case '-' -> {
+                result = number1 - number2;
+                System.out.println(number1 + " - " + number2 + " = " + result);
+            }
+
+            // performs multiplication between numbers
+            case '*' -> {
+                result = number1 * number2;
+                System.out.println(number1 + " * " + number2 + " = " + result);
+            }
+
+            // performs division between numbers
+            case '/' -> {
+                result = number1 / number2;
+                System.out.println(number1 + " / " + number2 + " = " + result);
+            }
+
+            // stop the application
+            case 'X' -> {
+            }
+            default -> System.out.println("Invalid operator!");
+        }
+    }
+}
