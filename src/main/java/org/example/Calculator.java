@@ -39,7 +39,7 @@ public class Calculator {
 
             // stop the application
             case '%' -> {
-                result = number1 % number2;
+                System.out.println("Invalid operator!");
             }
             default -> System.out.println("Invalid operator!");
         }
