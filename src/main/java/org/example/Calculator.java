@@ -34,6 +34,7 @@ public class Calculator {
 
             // stop the application
             case 'X' -> {
+                result = number1 * number2;
             }
             default -> System.out.println("Invalid operator!");
         }
