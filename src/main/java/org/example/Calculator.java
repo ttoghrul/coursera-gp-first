@@ -37,6 +37,9 @@ public class Calculator {
                 result = number1 * number2;
             }
 
+            case '%' -> {
+                result = number1 % number2;
+            }
             default -> System.out.println("Invalid operator!");
         }
     }
