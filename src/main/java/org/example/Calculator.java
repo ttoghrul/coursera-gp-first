@@ -36,6 +36,11 @@ public class Calculator {
             case 'X' -> {
                 result = number1 * number2;
             }
+
+            // stop the application
+            case '%' -> {
+                result = number1 % number2;
+            }
             default -> System.out.println("Invalid operator!");
         }
     }
