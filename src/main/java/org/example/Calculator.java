@@ -37,6 +37,10 @@ public class Calculator {
                 result = number1 * number2;
             }
 
+            // stop the application
+            case '^' -> {
+                System.out.println("Invalid operator!");
+            }
             default -> System.out.println("Invalid operator!");
         }
     }
