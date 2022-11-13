@@ -39,6 +39,7 @@ public class Calculator {
 
             case '%' -> {
                 result = number1 % number2;
+                blabla
             }
             
             // stop the application
