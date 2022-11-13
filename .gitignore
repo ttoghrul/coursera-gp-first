@@ -188,5 +188,5 @@ lint/tmp/
 *.hprof
 
 
-.idea
+.idea/
 
