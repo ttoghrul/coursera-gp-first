@@ -1,4 +1,4 @@
-.idea/
-bin/
-.gradle/*
-build/*
+/build/
+/.gradle/
+/.idea/
+/bin/
