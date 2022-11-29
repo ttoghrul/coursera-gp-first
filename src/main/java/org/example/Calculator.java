@@ -46,7 +46,7 @@ public class Calculator {
             case '^' -> {
                 System.out.println("Invalid operator!");
             }
-            default -> System.out.println("Valid test 1!");
+            default -> System.out.println("Valid perv!");
         }
     }
 }
